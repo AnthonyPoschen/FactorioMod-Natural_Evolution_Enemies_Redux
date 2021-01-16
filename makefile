@@ -8,6 +8,7 @@ build:
 
 copy:
 	cp $(FILENAME).zip "$(APPDATA)/Factorio/mods/$(FILENAME).zip"
-	rm -rf $(FILENAME).zip
 
-run: build copy
+clean:
+	rm -rf $(FILENAME).zip
+run: build copy clean

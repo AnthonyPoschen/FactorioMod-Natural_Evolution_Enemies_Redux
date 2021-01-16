@@ -1,6 +1,6 @@
 if not NE_Enemies then NE_Enemies = {} end
 if not NE_Enemies.Settings then NE_Enemies.Settings = {} end
-local NEEnemies = require('common')('Nova-Natural_Evolution_Enemies')
+local NEEnemies = require('common')('Natural_Evolution_Enemies_Redux')
 local ICONPATH = NEEnemies.modRoot .. "/graphics/icons/"
 local ENTITYPATH = NEEnemies.modRoot .. "/graphics/entity/"
 
